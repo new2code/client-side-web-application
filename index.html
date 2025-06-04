@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-side web app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎉 Welcome to your web app!</h1>
+        <p>Congratulations on setting up your local development environment!</p>
+    </header>
+
+    <main>
+        <section class="info-card">
+            <h2>What you've accomplished</h2>
+            <ul>
+                <li>✅ Set up a local development environment</li>
+                <li>✅ Installed Node.js dependencies</li>
+                <li>✅ Started a local web server that uses <a href="https://www.npmjs.com/package/http-server" target="_blank"><code>http-server</code></a></li>
+                <li>✅ Previewed a live version of your app</li>
+            </ul>
+        </section>
+
+        <section class="experiment-zone">
+            <h2>Try this!</h2>
+            <p>Make changes to this HTML file or the CSS file and save. Then refresh your browser to see the changes.</p>
+            
+            <div class="interactive-demo">
+                <button id="colorButton" onclick="changeBackgroundColor()">Click me to change background color</button>
+                <p id="clickCounter">Clicks: 0</p>
+            </div>
+        </section>
+
+        <section class="learning-tips">
+            <h2>Next Steps</h2>
+            <div class="tip-grid">
+                <div class="tip">
+                    <h3>🎨 Styling</h3>
+                    <p>Edit <code>styles.css</code> to change how your app looks</p>
+                </div>
+                <div class="tip">
+                    <h3>⚡ Functionality</h3>
+                    <p>Edit <code>app.js</code> to add more interactive features</p>
+                </div>
+                <div class="tip">
+                    <h3>📱 Responsive</h3>
+                    <p>Try resizing your browser window to see responsive design</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Happy coding! 🚀</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
