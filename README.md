@@ -14,10 +14,38 @@ This project is good for coding beginners who want to:
 
 TODOCS - link to documentation
 
-## 🛠 Available scripts
+## 🛠 Steps for running locally
 
-- `npm start` - Start the development server on port 3000
-- `npm run dev` - Start server and automatically open browser
+### Step 1: Clone the repository
+
+```bash
+git clone git@github.com:new2code/client-side-web-application.git
+cd client-side-web-application
+```
+
+Download the project files to your local machine and navigate into the project folder.
+
+### Step 2: Install dependencies
+
+```bash
+npm install
+```
+
+This downloads all the necessary packages for the project.
+
+### Step 3: Start the development server
+
+```bash
+npm start
+```
+
+This will start the server on port 8080.
+
+### Step 4: View your app
+
+- Open your web browser
+- Navigate to [http://localhost:8080](http://localhost:8080)
+- Your app should now be running!
 
 ## 🎨 Customization ideas
 
