@@ -1,0 +1,186 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    transition: background 0.5s ease;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Card styles */
+.info-card, .experiment-zone, .learning-tips {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-card h2, .experiment-zone h2, .learning-tips h2 {
+    color: #4a5568;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.info-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info-card li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #2d3748;
+}
+
+/* Interactive demo */
+.interactive-demo {
+    background: #f7fafc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#colorButton {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+#colorButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#clickCounter {
+    font-size: 1.2rem;
+    color: #4a5568;
+    font-weight: bold;
+}
+
+/* Tips grid */
+.tip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.tip {
+    background: #f7fafc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.tip h3 {
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.tip p {
+    color: #4a5568;
+}
+
+code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #2d3748;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    .info-card, .experiment-zone, .learning-tips {
+        padding: 1.5rem;
+    }
+    
+    .tip-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Background color variations for the interactive demo */
+.bg-variant-1 {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%) !important;
+}
+
+.bg-variant-2 {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%) !important;
+}
+
+.bg-variant-3 {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%) !important;
+}
+
+.bg-variant-4 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
