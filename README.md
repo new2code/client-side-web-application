@@ -18,12 +18,21 @@ TODOCS - link to documentation
 
 ### Step 1: Clone the repository
 
+SSH: 
+
 ```bash
 git clone git@github.com:new2code/client-side-web-application.git
 cd client-side-web-application
 ```
 
-Download the project files to your local machine and navigate into the project folder.
+HTTPS: 
+
+```bash
+git clone https://github.com/new2code/client-side-web-application.git
+cd client-side-web-application
+```
+
+This downloads the project files to your local machine and navigates into the project folder.
 
 ### Step 2: Install dependencies
 
