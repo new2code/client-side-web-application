@@ -4,8 +4,8 @@
   "description": "A small client-side web app for learning local development",
   "main": "app.js",
   "scripts": {
-    "start": "http-server -p 8080 -a 127.0.0.1 -c-1",
-    "dev": "http-server -p 8080 -a 127.0.0.1 -c-1 -o"
+    "start": "http-server -p 8080 -a localhost -c-1",
+    "dev": "http-server -p 8080 -a localhost -c-1 -o"
   },
   "keywords": [
     "web",
