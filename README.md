@@ -12,7 +12,7 @@ This project is good for coding beginners who want to:
 
 ## 🚀 GitHub Docs tutorial
 
-TODOCS - link to documentation
+[Developing your project locally](https://docs.github.com/en/get-started/learning-to-code/developing-your-project-locally)
 
 ## 🛠 Steps for running locally
 
